@@ -1,0 +1,29 @@
+{
+  "name": "url_short",
+  "version": "1.0.0",
+  "description": "a small web app for URL shortening",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlaaXDz/url-short.git"
+  },
+  "keywords": [
+    "url"
+  ],
+  "author": "AlaaXDz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlaaXDz/url-short/issues"
+  },
+  "homepage": "https://github.com/AlaaXDz/url-short#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16",
+    "shortid": "^2.2.16"
+  }
+}
